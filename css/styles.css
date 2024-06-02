@@ -1,4 +1,139 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+body{
+    display: flex;
+    background-color: #efeeee;
+    padding: 10vh 50vh;
+}
+
+#primera-mitad{
+    display: flex;
+    flex-direction: column;
+}
+
+#caja1{
+    background-color: #f9f9f9;
+    border-radius: 4vh;
+    padding: 4vh;
+    width: 50vh;
+    height: 100%;
+    border-style: groove;
+}
+
+#header-caja1{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+
+#img-caja1{
+    height: 7vh;
+    width: 7vh;
+    border-radius: 100%;
+    margin-right: 3vh;
+}
+
+#div-header-caja1{
+    margin-right: auto;
+}
+
+#h3-div-header-caja1{
+    font-weight: 450;
+    font-size: 2.5vh;
+}
+
+#h4-div-header-caja1{
+    font-weight: 350;
+    color: rgb(100, 100, 100);
+    font-size: 2vh;
+}
+
+#button-header-caja1{
+    background-color: #ebeaea;
+    border-radius: 1vh;
+    border-color:#efeeee;
+    width: 5vh;
+    height: 5vh;
+    font-size: 2.5vh;
+    transition: 0.5s;
+}
+
+#button-header-caja1:hover{
+    background-color: black;
+    color: #efeeee;
+}
+
+#h2-caja1{
+    font-weight: 500;
+    font-size: 3vh;
+    margin-bottom: 2vh;
+}
+
+#h3-caja1{
+    color: rgb(100, 100, 100);
+    font-weight: 400;
+    font-size: 2.5vh;
+    margin-bottom: 2vh;
+}
+
+#div-caja1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 3vh;
+}
+
+.p-div-caja1{
+    background-color: #dbe4fc;
+    border-radius: 0.7vh;
+    padding: 0.7vh;
+    font-size: 2.5vh;
+    margin-bottom: 2vh;
+}
+
+#div-separador-caja1{
+    width: 100%;
+    height: 1px;
+    color: rgb(200, 200, 200);
+    font-size: 2.1vh;
+    margin-bottom: 3vh;
+}
+
+#h1-caja1{
+    font-weight: 500;
+    margin-bottom: 1vh;
+    font-size: 5vh;
+}
+
+#h4-caja1{
+    color: rgb(100, 100, 100);
+    font-size: 2vh;
+    font-weight: 400;
+    margin-bottom: 3vh;
+}
+
+#button-caja1{
+    background-color: #387ff8;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    border-color: #387ff8;
+    border-radius: 2vh;
+    font-size: 3vh;
+    transition: 0.5s;
+}
+
+#button-caja1:hover{
+    background-color:#0e66fd;
+    color:white;
+}
+
+
+
