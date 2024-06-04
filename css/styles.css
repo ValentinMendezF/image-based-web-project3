@@ -11,13 +11,13 @@ body{
     height: 100%;
 }
 
-#primera-mitad{
+.primera-mitad{
     display: flex;
     flex-direction: column;
     align-content: space-between;
 }
 
-#caja1{
+.caja1{
     background-color: #f9f9f9;
     border-radius: 4vh;
     border-color: #efeeee;
@@ -26,9 +26,12 @@ body{
     height: 100%;
     border-style: groove;
     margin-bottom: 6vh;
+    border-top: none;
+    border-left: none;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.05);
 }
 
-#header-caja1{
+.caja1 header{
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -36,64 +39,71 @@ body{
     margin-bottom: 2vh;
 }
 
-#img-caja1{
+.caja1 header img{
     height: 7vh;
     width: 7vh;
     border-radius: 100%;
     margin-right: 3vh;
 }
 
-#div-header-caja1{
+.caja1 header div{
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-#h3-div-header-caja1{
-    font-weight: 450;
+.caja1 header div h3{
+    font-weight: 500;
     font-size: 2.5vh;
+    color: #0f0e0e;
+    margin-bottom: 0.5vh;
 }
 
-#h4-div-header-caja1{
+.caja1 header div h4{
     font-weight: 350;
     color: rgb(100, 100, 100);
     font-size: 2vh;
 }
 
-#button-header-caja1{
+.caja1 header button{
     background-color: #ebeaea;
+    color: #0f0e0e;
     border-radius: 1vh;
-    border-color:#efeeee;
     width: 6vh;
     height: 6vh;
     font-size: 2.5vh;
     transition: 0.5s;
+    border-style: groove;
+    border-top: none;
+    border-left: none;
 }
 
-#button-header-caja1:hover{
+.caja1 header button:hover{
     background-color: black;
     color: #efeeee;
 }
 
-#h2-caja1{
+.caja1 h2{
     font-weight: 500;
     font-size: 3vh;
     margin-bottom: 2vh;
 }
 
-#h3-caja1{
+.caja1 h3{
     color: rgb(157, 155, 155);
     font-weight: 400;
     font-size: 2.2vh;
     margin-bottom: 2vh;
 }
 
-#div-caja1{
+.caja1 div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-right: 3vh;
 }
 
-.p-div-caja1{
+.caja1 div p{
     background-color: #dbe4fc;
     border-radius: 0.7vh;
     padding: 0.7vh;
@@ -101,7 +111,7 @@ body{
     margin-bottom: 2vh;
 }
 
-#div-separador-caja1{
+.div-separador-caja1{
     width: 100%;
     height: 1px;
     color: rgb(200, 200, 200);
@@ -109,20 +119,20 @@ body{
     margin-bottom: 3vh;
 }
 
-#h1-caja1{
+.caja1 h1{
     font-weight: 500;
     margin-bottom: 1vh;
     font-size: 5vh;
 }
 
-#h4-caja1{
+.caja1 h4{
     color: rgb(100, 100, 100);
     font-size: 2vh;
     font-weight: 400;
     margin-bottom: 3vh;
 }
 
-#button-caja1{
+.caja1 button{
     background-color: #387ff8;
     color: white;
     width: 100%;
@@ -134,16 +144,17 @@ body{
     transition: 0.5s;
 }
 
-#button-caja1:hover{
+.caja1 button:hover{
     background-color:#0256e7;
     color:white;
+    cursor: pointer;
 }
 
-#caja2{
+.caja2{
     display: flex;
     flex-direction: column;
     background-color: #f9f9f9;
-    background-image: linear-gradient(#f0f0f0,#f0f0f0,#d8a5d3d6);
+    background-image: linear-gradient(#f9f9f9,#f0f0f0,#d8a5d3d6);
     border-radius: 4vh;
     border-color: #efeeee;
     padding: 3vh;
@@ -151,28 +162,31 @@ body{
     height: 100%;
     border-style: groove;
     align-items: center;
+    border-top: none;
+    border-left: none;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.05);
 }
 
-#img-caja2{
+.caja2 img{
     width: 15vh;
     height: 15vh;
     margin-bottom: 4vh;
 }
 
-#h2-caja2{
+.caja2 h2{
     font-weight: 500;
     font-size: 3.5vh;
     margin-bottom: 2vh;
 }
 
-#p-caja2{
+.caja2 p{
     color: rgb(100, 100, 100);
     font-size: 2.5vh;
     text-align: center;
     margin-bottom: 3vh;
 }
 
-#button-caja2{
+.caja2 button{
     color: white;
     background-color: #0f0e0e;
     width: 100%;
@@ -184,9 +198,10 @@ body{
     transition: 0.5s;
 }
 
-#button-caja2:hover{
+.caja2 button:hover{
     color: white;
     background-color: #4e4949;
+    cursor: pointer;
 }
 
 
